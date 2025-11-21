@@ -1,0 +1,54 @@
+{%- comment -%}
+  _includes/reference.html
+  Outputs inline content only (no <li>) so the default jekyll-scholar
+  wrapper can create one <li> per entry. Authors are:
+   • Rendered as “Last, F.” with multiple initials (handles hyphenated/compound given names)
+   • Limited to first 10 authors, then “et al.”
+   • No “and” anywhere—authors are comma-separated
+{%- endcomment -%}
+
+{%- assign authors = entry.author_array | default: empty -%}
+{%- assign total_authors = authors | size -%}
+
+{%- capture author_list -%}
+  {%- for a in authors limit: 10 -%}
+    {%- assign first = a.first | default: "" -%}
+    {%- assign parts = first | replace: "-", " " | split: " " -%}
+    {%- capture initials -%}{% endcapture -%}
+    {%- for p in parts -%}
+      {%- if p != "" -%}
+        {%- capture initials -%}{{ initials }}{{ p | slice: 0, 1 }}.{% endcapture -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if a.last and a.last != "" -%}
+      {{ a.last }}{% if initials != "" %}, {{ initials }}{% endif %}
+    {%- endif -%}
+    {%- unless forloop.last -%}, {% endunless -%}
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- if total_authors > 10 -%}
+  {%- capture author_list -%}{{ author_list }}, et al.{% endcapture -%}
+{%- endif -%}
+
+{%- assign year    = entry.year    | default: "" -%}
+{%- assign title   = entry.title   | clean_bibtex | default: "" -%}
+{%- assign journal = entry.journal | clean_bibtex | default: "" -%}
+{%- assign volume  = entry.volume  | default: "" -%}
+{%- assign number  = entry.number  | default: "" -%}
+{%- assign pages   = entry.pages   | default: "" -%}
+{%- assign doi     = entry.doi     | default: "" -%}
+{%- assign url     = entry.url     | default: "" -%}
+
+{%- comment -%}
+OUTPUT (mind the spaces and punctuation)
+{%- endcomment -%}
+
+{{ author_list }}{% if year != "" %} ({{ year }}){% endif %}. 
+{% if title != "" %}<em>{{ title }}</em>.{% endif %} 
+{% if journal != "" %}<em>{{ journal }}</em>{% endif %}{% if volume != "" %} <strong>{{ volume }}</strong>{% endif %}{% if number != "" %} ({{ number }}){% endif %}{% if pages != "" %}, {{ pages }}{% endif %}. 
+{% if doi     != "" %}
+      <a href="https://doi.org/{{ doi }}" target="_blank" rel="noopener">doi:{{ doi }}</a>
+    {% elsif url  != "" %}
+      <a href="{{ url }}" target="_blank" rel="noopener">link</a>
+    {% endif %}

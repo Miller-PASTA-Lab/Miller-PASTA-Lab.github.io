@@ -34,6 +34,14 @@ defaults:
 # Plugins allowed on GitHub Pages
 plugins:
   - jekyll-feed
+  - jekyll-scholar
+
+scholar:
+  style: apa
+  locale: en
+  source: _bibliography
+  bibliography: pasta-papers.bib
+  # bibliography_template: bib
 
 # Excludes
 exclude:
