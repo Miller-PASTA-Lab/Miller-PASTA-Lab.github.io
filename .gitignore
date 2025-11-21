@@ -6,3 +6,12 @@ _site/
 .bundle/
 vendor/
 tmp/
+
+# Ruby/Bundler
+.bundle/
+vendor/
+Gemfile.lock
+
+# Operating system files
+.DS_Store
+.DS_Store?
