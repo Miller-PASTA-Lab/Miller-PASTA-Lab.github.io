@@ -13,5 +13,5 @@ permalink: /publications/
 <h2 class="section-title">Publications</h2>
 
 <ol class="pub-list">
-{%- bibliography --query @article or @inproceedings or @phdthesis or @mastersthesis or @book or @misc -%}
+{%- bibliography --query @article or @inproceedings or @phdthesis or @mastersthesis or @book or @misc --template bib -%}
 </ol>

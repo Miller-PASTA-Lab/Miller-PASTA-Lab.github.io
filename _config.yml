@@ -41,7 +41,7 @@ scholar:
   locale: en
   source: _bibliography
   bibliography: pasta-papers.bib
-  # bibliography_template: bib
+  bibliography_template: bib
 
 # Excludes
 exclude:
