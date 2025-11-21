@@ -1,6 +1,9 @@
-
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
-# Ruby 3+ needs webrick to serve locally
-gem "webrick", "~> 1.8"
+gem "jekyll", "~> 4.3"
+gem "webrick", "~> 1.8"      # needed for Ruby 3+
+gem "jekyll-scholar", "~> 7" # scholar plugin
+
+group :jekyll_plugins do
+  gem "jekyll-feed"
+end
