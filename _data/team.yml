@@ -10,6 +10,8 @@ current:
     role: PhD Candidate
     photo: chang-liu.jpg
     bio: Primary focus is understanding the physics of thermonuclear explosions in white dwarf stars. Uses early-time observations collected by surveys like ZTF and late-time observations from facilities like Keck to study double-detonation explosions. 
+    ads: https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-7866-4531&sort=date%20desc%2C%20bibcode%20desc&p_=0
+    github: https://github.com/slowdivePTG
   - name: Nabeel Rehemtulla
     role: PhD Candidate
     photo: nabeel-rehemtulla.jpg
