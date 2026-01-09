@@ -52,3 +52,9 @@ former:
     role: CIERA REU >> PhD student at Vanderbilt University
     photo: sebastian-banaszak.jpg
     bio: Primary focus was understanding the optical emission produced by SMBHBs and how they can be detected in wide field time-domain surveys like ZTF and LSST. 
+  - name: Sebastian Banaszak
+    role: IMSA high school >> undergrad at Caltech
+    photo: xander-hall.jpg
+    bio: Primary focus was utilizing machine learning and citizen science to automate the classification of supernova discovered by ZTF and spectroscopically observed by SEDM. 
+    ads: https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-9364-5419&sort=date%20desc%2C%20bibcode%20desc&p_=0
+    github: https://github.com/Hallflower20

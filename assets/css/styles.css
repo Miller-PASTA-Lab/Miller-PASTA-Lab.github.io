@@ -205,3 +205,33 @@ html[data-theme='dark'] .dark-only   { display: block; }
 /* Improve default prose spacing for all pages */
 p { margin: 0 0 1rem 0; }
 h1, h2, h3, h4 { line-height: 1.25; }
+
+/* Hide hamburger on desktop */
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    margin-left: auto;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+  }
+  .links.open {
+    max-height: 500px; /* enough to show all links */
+    opacity: 1;
+  }
+}
