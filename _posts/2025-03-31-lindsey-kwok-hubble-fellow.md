@@ -2,6 +2,7 @@
 layout: post
 title: Lindsey Kwok selected as a NASA Hubble Fellow
 date: 2025-03-31
+external_url: https://science.nasa.gov/missions/hubble/nasa-awards-astrophysics-postdoctoral-fellowships-for-2025/
 ---
 
 Lindsey joins the 2025 NHFP cohort as a Hubble Fellow for research on white-dwarf supernovae with JWST infrared spectroscopy.

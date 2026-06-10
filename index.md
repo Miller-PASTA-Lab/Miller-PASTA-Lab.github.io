@@ -17,7 +17,7 @@ permalink: /
   <div class="grid">
     {% for post in site.posts limit: 8 %}
     <div class="card">
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <h3><a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url | relative_url }}{% endif %}" {% if post.external_url %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ post.title }}</a></h3>
       <p class="meta">{{ post.date | date: '%B %-d, %Y' }}</p>
       {% if post.excerpt %}{{ post.excerpt }}{% endif %}
     </div>

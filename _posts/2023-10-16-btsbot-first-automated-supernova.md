@@ -2,6 +2,7 @@
 layout: post
 title: First fully automated supernova discovery and classification by BTSbot
 date: 2023-10-16
+external_url: https://www.sciencealert.com/world-first-new-ai-system-discovers-supernova-without-human-help
 ---
 
 BTSbot autonomously detected, triggered follow-up, and classified SN 2023tyk—marking a milestone in automated time-domain astronomy.

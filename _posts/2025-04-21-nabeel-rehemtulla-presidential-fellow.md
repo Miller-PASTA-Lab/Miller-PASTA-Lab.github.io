@@ -2,6 +2,7 @@
 layout: post
 title: Nabeel Rehemtulla named Northwestern Presidential Fellow
 date: 2025-04-21
+external_url: https://physics.northwestern.edu/about/news/2025/nabeel-rehemtulla-receives-northwestern-presidential-fellowship.html
 ---
 
 Congratulations to Nabeel on receiving Northwestern’s most prestigious graduate fellowship, recognizing exceptional research leadership in AI-driven supernova discovery.
