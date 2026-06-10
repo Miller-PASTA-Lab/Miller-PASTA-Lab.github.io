@@ -11,7 +11,7 @@
     // No saved choice: don't set data-theme; let CSS honor prefers-color-scheme
   }
 
-  const btn = document.querySelector('.theme-toggle');
+  const btn = document.querySelector('#theme-toggle, .theme-toggle');
   if (btn) {
     btn.addEventListener('click', () => {
       const cur = document.documentElement.getAttribute('data-theme');
