@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Anastasia Wei and Ayanna Mann awarded NSF Graduate Research Fellowships
-date: 2026-04-01
+date: 2026-04-13
 external_url: https://www.nsf.gov/news/nsf-announces-2026-graduate-research-fellowship-program
 ---
 
