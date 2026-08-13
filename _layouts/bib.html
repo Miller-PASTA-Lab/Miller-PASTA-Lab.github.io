@@ -33,7 +33,7 @@
 
 {%- assign year    = entry.year    | default: "" -%}
 {%- assign title   = entry.title   | clean_bibtex | default: "" -%}
-{%- assign journal = entry.journal | clean_bibtex | default: "" -%}
+{%- assign journal = entry.journal | default: entry.booktitle | clean_bibtex | default: "" -%}
 {%- assign volume  = entry.volume  | default: "" -%}
 {%- assign number  = entry.number  | default: "" -%}
 {%- assign pages   = entry.pages   | default: "" -%}
