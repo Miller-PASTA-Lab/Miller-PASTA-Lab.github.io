@@ -6,12 +6,6 @@ current:
     bio: Primary focus is understanding the different progenitor channels of stellar explosions. Actively working on multiple time-domain surveys including, ZTF, LS4, and LSST, while looking for ways to leverage recent advances in data science and artificial intelligence.
     ads: https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-9515-478X&sort=date%20desc%2C%20bibcode%20desc&p_=0
     github: https://github.com/adamamiller
-  - name: Chang Liu
-    role: PhD Candidate
-    photo: chang-liu.jpg
-    bio: Primary focus is understanding the physics of thermonuclear explosions in white dwarf stars. Uses early-time observations collected by surveys like ZTF and late-time observations from facilities like Keck to study double-detonation explosions. 
-    ads: https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-7866-4531&sort=date%20desc%2C%20bibcode%20desc&p_=0
-    github: https://github.com/slowdivePTG
   - name: Nabeel Rehemtulla
     role: PhD Candidate
     photo: nabeel-rehemtulla.jpg
@@ -42,6 +36,12 @@ current:
     bio: Primary focus is studying the redshift completeness of galaxy redshift catalogs in the local Universe. Uses observations from ZTF to identify whether a galaxy's redshift was known prior to the supernova.
 
 former:
+  - name: Chang Liu
+    role: PhD Candidate >> Hinte Fellow at Oxford University
+    photo: chang-liu.jpg
+    bio: Primary focus was understanding the physics of thermonuclear explosions in white dwarf stars. Used early-time observations collected by surveys like ZTF and late-time observations from facilities like Keck to study double-detonation explosions.
+    ads: https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-7866-4531&sort=date%20desc%2C%20bibcode%20desc&p_=0
+    github: https://github.com/slowdivePTG
   - name: Steve Schulze
     role: Research Associate >> Faculty at Weizmann Institute
     photo: steve-schulze.png
