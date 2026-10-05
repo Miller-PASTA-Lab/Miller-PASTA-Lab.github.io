@@ -17,7 +17,7 @@ Open http://localhost:4000 in your browser.
 
 ## Editing content
 - **News**: add Markdown files under `_posts/` named `YYYY-MM-DD-title.md`.
-- **Team**: edit `_data/team.yml` and add headshots to `assets/team/` using the `photo` filenames.
+- **Team**: edit `_data/team.yml` and add headshots to `assets/team/` using the `photo` filenames. New members: see [ADD_YOURSELF.md](ADD_YOURSELF.md).
 - **Projects**: edit `projects.md`.
 - **Publications**: edit `publications.md`.
 
