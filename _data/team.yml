@@ -34,7 +34,11 @@ current:
     role: Undergraduate Researcher (Illinois Institute of Technology)
     photo: elaine-bai.jpg
     bio: Primary focus is studying the redshift completeness of galaxy redshift catalogs in the local Universe. Uses observations from ZTF to identify whether a galaxy's redshift was known prior to the supernova.
-
+  - name: Steven Henderson
+    role: Post-bacc Research Fellow
+    photo: steven-henderson.jpg
+    bio: Focusing on searching for fast transients for quick follow-up using people-powered research on Zooniverse.
+    
 former:
   - name: Chang Liu
     role: PhD Candidate >> Hinte Fellow at Oxford University
